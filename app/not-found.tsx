@@ -1,6 +1,7 @@
+import type { Metadata } from "next";
 import css from "./page.module.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Page Not Found",
   description: "The page you are looking for does not exist.",
 
